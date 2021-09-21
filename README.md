@@ -9,7 +9,9 @@ A predetermined amount of each ingredient is needed to make one cup of coffee (2
 Ask the user how many cups of coffee they would like
 If there are enough ingredients for the amount the customer wants output that the order can be fulfilled, if there are enough ingredients for more cups, indicate this
 If there are not enough ingredients for the order, tell the customer and indicate how many cups of coffee an be made.
+
 ======SOLUTION======
+
 Gather all the inputs from the barista in the order indicated by the question
 Get the user to input how many cups of coffee they would like
 Create an array with the amounts needed for a cup of coffee
