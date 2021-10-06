@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class CoffeeMachine {
     static Scanner scan = new Scanner(System.in);
     static String action;
+    
+    // Initial resources available in machine
+    
     static int water = 400;
     static int milk = 540;
     static int beans = 120;
@@ -13,6 +16,9 @@ public class CoffeeMachine {
     
       
     private static void buy(){
+        
+        // "Buy" menu
+        
         System.out.println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - back to main menu:");
         if(scan.hasNext("back")){
             CoffeeMachine.main(null);
@@ -99,6 +105,9 @@ public class CoffeeMachine {
     }
     
     private static void fill(){
+        
+        //"Fill" menu for a worker to replenish resources
+        
         int waterAdd, milkAdd, beansAdd, cupsAdd;
         System.out.println("\nWrite how many ml of water you want to add: ");
         waterAdd = scan.nextInt();
@@ -129,6 +138,9 @@ public class CoffeeMachine {
     }
     
     private static void remaining(){
+        
+        //"Remaining" menu to check what resources are available
+        
         System.out.println("The coffee machine has: ");
         System.out.println(water + " ml of water");
         System.out.println(milk + " ml of milk");
@@ -142,6 +154,8 @@ public class CoffeeMachine {
     
     
     public static void main(String[] args){
+            
+        //Main menu presented by machine
         
             System.out.println("Write action (buy, fill, take, remaining, exit):");
             while(!"exit".equals(action)){
