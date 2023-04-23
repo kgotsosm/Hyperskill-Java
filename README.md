@@ -1,14 +1,15 @@
-# Hyperskill-Java
+# Coffee Machine
 
-COFFEE MACHINE
+**This project is a simulation of a coffee machine, developed as part of the Java Developer track on hyperskill. The objective of the project is to create a program that can perform multiple actions based on user input.**
 
-This is the Coffee Machine project for the Java Developer track on hyperskill.
- 
-"Let's improve the program so it can do multiple actions, one after another. The program should repeatedly ask what the user wants to do. If the user types "buy", "fill" or "take", then just do what the program did in the previous step. However, if the user wants to switch off the coffee machine, he should type "exit". Then the program should terminate. Also, when the user types "remaining", the program should output all the resources that the coffee machine has.
+## Functionality:
 
-Also, do not forget that you can be out of resources for making coffee. If the coffee machine doesn’t have enough resources to make coffee, the program should output a message that says it can't make a cup of coffee.
+- Buy a cup of coffee (espresso, latte or cappuccino) by entering "buy"
+- Fill the coffee machine's resources (water, milk, coffee beans) by entering "fill"
+- Take money from the coffee machine by entering "take"
+- View the remaining resources in the coffee machine by entering "remaining"
+- Exit the program by entering "exit"
 
-And the last improvement to the program at this step—if the user types "buy" to buy a cup of coffee and then changes his mind, he should be able to type "back" to return into the main cycle."
+**The program uses object-oriented programming concepts and has been designed to be modular and easily extensible. Each action (buy, fill, take, remaining) has been implemented as a separate method to improve the code's readability and maintainability.**
 
-The way I solved this problem was by creating methods for all the different options that are available to the user. 
-All the code was to loop until the user input was "exit", then the program would stop. 
+To run the program, simply clone the repository and execute the Main.java file. The program will prompt the user for input and provide the necessary feedback based on the action taken.
