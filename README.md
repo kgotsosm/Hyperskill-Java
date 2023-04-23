@@ -12,4 +12,4 @@
 
 **The program uses object-oriented programming concepts and has been designed to be modular and easily extensible. Each action (buy, fill, take, remaining) has been implemented as a separate method to improve the code's readability and maintainability.**
 
-To run the program, simply clone the repository and execute the Main.java file. The program will prompt the user for input and provide the necessary feedback based on the action taken.
+To run the program, simply clone the repository and execute the CoffeeMachine.java file. The program will prompt the user for input and provide the necessary feedback based on the action taken.
